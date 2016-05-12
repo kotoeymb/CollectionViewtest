@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "Cell.h"
+#import "HeaderClass.h"
+
 
 @interface ViewController ()
 
@@ -16,8 +18,21 @@
 @implementation ViewController
 
 //Delegate Methods
+
+-(UICollectionReusableView*) collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
+
+    HeaderClass * header= [collectionView dequeueReusableSupplementaryViewOfKind:
+                           UICollectionElementKindSectionHeader withReuseIdentifier:@"myHeader" forIndexPath:indexPath];
+
+    header.myHeaderLabel.text = [NSString stringWithFormat:@"Section %d", indexPath.section +1];
+    return  header;
+}
+
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
-    return 1;
+   //  return 1;
+    
+    // 3 sections
+    return 3;
     
 }
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{

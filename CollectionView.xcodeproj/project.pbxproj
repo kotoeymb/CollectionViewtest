@@ -15,6 +15,7 @@
 		4338DC8C1CE4694100355149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4338DC8A1CE4694100355149 /* LaunchScreen.storyboard */; };
 		4338DC951CE46AFE00355149 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4338DC941CE46AFE00355149 /* Cell.m */; };
 		4338DC991CE474CA00355149 /* collection_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4338DC981CE474CA00355149 /* collection_icon.png */; };
+		4338DC9C1CE47C9700355149 /* HeaderClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4338DC9B1CE47C9700355149 /* HeaderClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		4338DC931CE46AFE00355149 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		4338DC941CE46AFE00355149 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 		4338DC981CE474CA00355149 /* collection_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collection_icon.png; sourceTree = "<group>"; };
+		4338DC9A1CE47C9700355149 /* HeaderClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderClass.h; sourceTree = "<group>"; };
+		4338DC9B1CE47C9700355149 /* HeaderClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				4338DC7C1CE4694100355149 /* Supporting Files */,
 				4338DC931CE46AFE00355149 /* Cell.h */,
 				4338DC941CE46AFE00355149 /* Cell.m */,
+				4338DC9A1CE47C9700355149 /* HeaderClass.h */,
+				4338DC9B1CE47C9700355149 /* HeaderClass.m */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				4338DC841CE4694100355149 /* ViewController.m in Sources */,
 				4338DC951CE46AFE00355149 /* Cell.m in Sources */,
 				4338DC811CE4694100355149 /* AppDelegate.m in Sources */,
+				4338DC9C1CE47C9700355149 /* HeaderClass.m in Sources */,
 				4338DC7E1CE4694100355149 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
